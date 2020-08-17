@@ -1,0 +1,25 @@
+{
+  "name": "reactive-edge",
+  "version": "0.1.0",
+  "description": "Reactive gateway for publishing IoT data from edge to cloud",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Manuel Carrillo Angulo <josemanuelcarrillo.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-iot-device-sdk": "^2.2.2",
+    "@types/express": "^4.17.6",
+    "@types/johnny-five": "^1.3.0",
+    "eslint": "^7.3.1",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.6",
+    "express": "^4.17.1",
+    "johnny-five": "^2.0.0",
+    "rxjs": "^6.5.5"
+  }
+}
